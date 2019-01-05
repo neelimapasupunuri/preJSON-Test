@@ -50,7 +50,6 @@ public class ParsingJSON {
 				throw new FileNotFoundException("properties file '"+propFileName+"'not found");
 			}
 			url = prop.getProperty(httpURLParam).trim();
-			System.out.println(url);
 			return url;
 		}catch(IOException io) {
 			System.out.println("Not able to retrieve the value for the param '"+httpURLParam+"'");
