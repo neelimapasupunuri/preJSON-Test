@@ -67,7 +67,6 @@ public class ParsingJSON {
 	
 	//function to access http get request to get JSON response
 	public static JSONArray readJSONFromURL(String httpURLGet) {
-	    StringBuilder sb = new StringBuilder();
 	    JSONArray JSONData = new JSONArray();
 	    try {
 	    	URL obj = new URL(httpURLGet);
